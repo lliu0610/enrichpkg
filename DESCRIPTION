@@ -1,0 +1,18 @@
+Package: enrichpkg
+Title: A universal enrichment tool for custom gene set
+Version: 1.0.2
+Authors@R: 
+    person("Jiajun", "Liu", email ="2410700742@qq.com", role = c("aut", "cre","cph"))
+Description: Used for performing enrichment of custom gene sets.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.3
+Depends: 
+    R (>= 3.5)
+LazyData: true
+Imports: 
+    clusterProfiler,
+    enrichplot,
+    ggplot2,
+    rappdirs
